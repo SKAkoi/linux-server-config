@@ -3,9 +3,9 @@
 ---------------------------
 
 ## Details
-1. IP Address = 
-2. ssh port = 
-3. URL = 
+1. IP Address = 18.221.245.98
+2. ssh port = 2200
+3. URL = http://18.221.245.98/categories
 
 ## Summary of software and configuration changes made
 
