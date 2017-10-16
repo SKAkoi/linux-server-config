@@ -95,7 +95,7 @@ added 'grader ALL=(ALL:ALL) ALL' to the file before saving and exiting
     * logging.basicConfig(stream=sys.stderr)
     * sys.path.insert(0, “/var/www/category-hotels/“)
     * from category-hotels import app as application
-    * app.secret_key = “client_secret.json”
+    * application.secret_key = “something”
 
 ### Configure a new virtualhost
 1. cd ~ (back to grader home)
