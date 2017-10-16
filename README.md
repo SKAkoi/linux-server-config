@@ -82,7 +82,9 @@ added 'grader ALL=(ALL:ALL) ALL' to the file before saving and exiting
 ### Configure project
 1. sudo chmod 777 -R . (made files readable, writeable and executable)
 2. cd category-hotels
-3. nano database_setup.py (change the engine to 'postgresql://catalog:catalogue2017@18.221.245.98/catalog')
+3. nano database_setup.py (change the engine to 'postgresql://catalog:catalogue2017@localhost/catalog')
+4. nano hotels.py (change the engine to 'postgresql://catalog:catalogue2017@localhost/catalog')
+5. nano hotels.py (change the location of client secret to '/var/www/category-hotels/client_secret')
 
 ### Create the wsgi
 1. sudo nano category-hotels.wsgi (to create the wsgi file)
