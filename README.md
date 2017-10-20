@@ -3,9 +3,9 @@
 ---------------------------
 
 ## Details
-1. IP Address = 18.221.245.98
+1. IP Address = 18.220.66.243
 2. ssh port = 2200
-3. URL = http://18.221.245.98/categories
+3. URL = http://18.220.66.243/categories
 
 ## Summary of software and configuration changes made
 
@@ -94,7 +94,7 @@ added 'grader ALL=(ALL:ALL) ALL' to the file before saving and exiting
     * import logging
     * logging.basicConfig(stream=sys.stderr)
     * sys.path.insert(0, “/var/www/category-hotels/“)
-    * from category-hotels import app as application
+    * from hotels import app as application
     * application.secret_key = “something”
 
 ### Configure a new virtualhost
