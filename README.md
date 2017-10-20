@@ -5,7 +5,7 @@
 ## Details
 1. IP Address = 18.220.66.243
 2. ssh port = 2200
-3. URL = http://18.220.66.243/categories
+3. URL = http://categoryhotels.sytes.net/categories
 
 ## Summary of software and configuration changes made
 
